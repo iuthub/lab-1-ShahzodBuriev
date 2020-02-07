@@ -1,0 +1,29 @@
+14:10:43.745835 == Info:   Trying 31.13.72.36...
+14:10:43.746918 == Info: TCP_NODELAY set
+14:10:43.749044 == Info: Connected to facebook.com (31.13.72.36) port 80 (#0)
+14:10:43.749088 => Send header, 76 bytes (0x4c)
+0000: GET / HTTP/1.1
+0010: Host: facebook.com
+0024: User-Agent: curl/7.64.1
+003d: Accept: */*
+004a: 
+14:10:44.020541 <= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 Found
+14:10:44.020648 <= Recv header, 33 bytes (0x21)
+0000: Location: https://facebook.com/
+14:10:44.020693 <= Recv header, 42 bytes (0x2a)
+0000: Content-Type: text/html; charset="utf-8"
+14:10:44.020732 <= Recv header, 102 bytes (0x66)
+0000: X-FB-Debug: f35nUZJjPBFflO9BJLWyKMIloDhg8za0OrOBUHdF20+mc80H2ztq
+0040: d1SXIhT9VYJodWodjT31pXjroLc9CUci4w==
+14:10:44.020784 <= Recv header, 32 bytes (0x20)
+0000: Alt-Svc: h3-24=":443"; ma=3600
+14:10:44.020819 <= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 07 Feb 2020 09:10:43 GMT
+14:10:44.020857 <= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+14:10:44.020891 <= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+14:10:44.020926 <= Recv header, 2 bytes (0x2)
+0000: 
+14:10:44.020992 == Info: Connection #0 to host facebook.com left intact
